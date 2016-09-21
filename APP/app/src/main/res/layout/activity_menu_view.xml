@@ -26,10 +26,10 @@
             android:id="@+id/view_currencyBtn" />
     </LinearLayout>
 
-    <LinearLayout
+    <ListView
+        android:id="@+id/viewlist"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-    </LinearLayout>
-
+        android:layout_height="match_parent"
+        />
 
 </LinearLayout>
